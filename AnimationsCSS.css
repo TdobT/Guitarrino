@@ -1,0 +1,290 @@
+
+.pressButton {
+    -webkit-animation: 0.2s linear;
+}
+
+/*.startingOrangePress {*/
+    /*-webkit-animation: Orange 0.2s linear;*/
+    /*-webkit-animation-delay: 0.8s;*/
+/*}*/
+/*.startingRedPress {*/
+    /*-webkit-animation: Red 0.2s linear;*/
+    /*-webkit-animation-delay: 0.2s;*/
+/*}*/
+/*.startingBluePress {*/
+    /*-webkit-animation: Blue 0.2s linear;*/
+    /*-webkit-animation-delay: 0.6s;*/
+/*}*/
+/*.startingGreenPress {*/
+    /*-webkit-animation: Green 0.2s linear;*/
+/*}*/
+/*.startingYellowPress {*/
+    /*-webkit-animation: Yellow 0.2s linear;*/
+    /*-webkit-animation-delay: 0.4s;*/
+/*}*/
+
+@-webkit-keyframes OrangeGrabberUp {
+    0% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/OrangePointerDown2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/OrangePointerDown3.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes OrangeGrabberDown {
+    0% { background: url('res/Grabber/OrangePointerDown3.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/OrangePointerDown2.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes OrangeGrabberPress {
+    0% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+    15% { background: url('res/Grabber/OrangePointerUp1.png') center;
+        background-size: cover;}
+    30% { background: url('res/Grabber/OrangePointerUp2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/OrangePointerUp3.png') center;
+        background-size: cover;}
+    70% { background: url('res/Grabber/OrangePointerUp2.png') center;
+        background-size: cover;}
+    85% { background: url('res/Grabber/OrangePointerUp1.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes OrangeGrabberFire {
+    0% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/OrangePointerFire.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/OrangePointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/OrangePointerDown1.png') center;
+        background-size: cover;}
+}
+
+
+@-webkit-keyframes RedGrabberUp {
+    0% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/RedPointerDown2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/RedPointerDown3.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes RedGrabberDown {
+    0% { background: url('res/Grabber/RedPointerDown3.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/RedPointerDown2.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes RedGrabberPress {
+    0% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+    15% { background: url('res/Grabber/RedPointerUp1.png') center;
+        background-size: cover;}
+    30% { background: url('res/Grabber/RedPointerUp2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/RedPointerUp3.png') center;
+        background-size: cover;}
+    70% { background: url('res/Grabber/RedPointerUp2.png') center;
+        background-size: cover;}
+    85% { background: url('res/Grabber/RedPointerUp1.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes RedGrabberFire {
+    0% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/RedPointerFire.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/RedPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/RedPointerDown1.png') center;
+        background-size: cover;}
+}
+
+@-webkit-keyframes GreenGrabberUp {
+    0% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/GreenPointerDown2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/GreenPointerDown3.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes GreenGrabberDown {
+    0% { background: url('res/Grabber/GreenPointerDown3.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/GreenPointerDown2.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes GreenGrabberPress {
+    0% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+    15% { background: url('res/Grabber/GreenPointerUp1.png') center;
+        background-size: cover;}
+    30% { background: url('res/Grabber/GreenPointerUp2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/GreenPointerUp3.png') center;
+        background-size: cover;}
+    70% { background: url('res/Grabber/GreenPointerUp2.png') center;
+        background-size: cover;}
+    85% { background: url('res/Grabber/GreenPointerUp1.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes GreenGrabberFire {
+    0% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/GreenPointerFire.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/GreenPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/GreenPointerDown1.png') center;
+        background-size: cover;}
+}
+
+@-webkit-keyframes BlueGrabberUp {
+    0% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/BluePointerDown2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/BluePointerDown3.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes BlueGrabberDown {
+    0% { background: url('res/Grabber/BluePointerDown3.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/BluePointerDown2.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes BlueGrabberPress {
+    0% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+    15% { background: url('res/Grabber/BluePointerUp1.png') center;
+        background-size: cover;}
+    30% { background: url('res/Grabber/BluePointerUp2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/BluePointerUp3.png') center;
+        background-size: cover;}
+    70% { background: url('res/Grabber/BluePointerUp2.png') center;
+        background-size: cover;}
+    85% { background: url('res/Grabber/BluePointerUp1.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes BlueGrabberFire {
+    0% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/BluePointerFire.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/BluePointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/BluePointerDown1.png') center;
+        background-size: cover;}
+}
+
+@-webkit-keyframes YellowGrabberUp {
+    0% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/YellowPointerDown2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/YellowPointerDown3.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes YellowGrabberDown {
+    0% { background: url('res/Grabber/YellowPointerDown3.png') center;
+        background-size: cover;}
+    18% { background: url('res/Grabber/YellowPointerDown2.png') center;
+        background-size: cover;}
+    36% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes YellowGrabberPress {
+    0% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+    15% { background: url('res/Grabber/YellowPointerUp1.png') center;
+        background-size: cover;}
+    30% { background: url('res/Grabber/YellowPointerUp2.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/YellowPointerUp3.png') center;
+        background-size: cover;}
+    70% { background: url('res/Grabber/YellowPointerUp2.png') center;
+        background-size: cover;}
+    85% { background: url('res/Grabber/YellowPointerUp1.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+}
+@-webkit-keyframes YellowGrabberFire {
+    0% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+    5% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+    50% { background: url('res/Grabber/YellowPointerFire.png') center;
+        background-size: cover;}
+    95% { background: url('res/Grabber/YellowPointer.png') center;
+        background-size: cover;}
+    100% { background: url('res/Grabber/YellowPointerDown1.png') center;
+        background-size: cover;}
+}

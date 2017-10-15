@@ -1,0 +1,98 @@
+
+.billboard{
+	
+	left: 20%;
+	top: 50%;
+	
+	width: 15%;
+	height: 16%;
+	
+    position: absolute;
+    margin: auto;
+	
+    /*box-shadow*/
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1), 0px 3px 15px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1), 0px 3px 15px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1), 0px 3px 15px 2px rgba(0,0,0,1);
+    border: 3px solid #5c5c5c;
+    border-top: 3px solid #999;
+    /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(30, 0, 0, 0.8);
+    background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 50%);
+    background-image: -webkit-repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 50%);
+    background-image: -moz-repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 50%);
+    background-image: -ms-repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 50%);
+    background-image: -o-repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 50%);
+    /*background-size*/
+    background-size: 10px 10px;
+	
+	z-index: 1;
+	
+	
+    animation-duration: 2.7s;
+    animation-name: billboardEntrance;
+	animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes billboardEntrance {
+	from {
+		width: 0;
+		left: 40%;
+		height: 10%;
+	}
+	
+	to {
+		width: 15%;
+		left: 20%;
+		height: 16%;
+	}
+}
+
+.common{
+	position: relative;
+	
+	
+	top: 10%;
+	margin-top: 4% auto;
+	font-size: 30;
+	font-family: 'Orbitron';
+	text-align: center;
+	white-space: pre;
+}
+
+.points{
+	color: green;
+}
+
+.multiplier{
+	color: blue;
+}
+
+.combo{
+	color: blue;
+}
+
+.lowLife{
+	top: 15%;
+	color: red;
+	font-weight: 1200;
+}
+
+.mediumLife{
+	top: 15%;
+	color: white;
+	font-weight: 1200;
+}
+
+.highLife{
+	top: 15%;
+	color: green;
+	font-weight: 1200;
+}
+
+
+
+
